@@ -1,0 +1,20 @@
+{
+  "cores": [
+    {"nome": "Amarelo"},
+    {"nome": "Azul"},
+    {"nome": "Fumê"},
+    {"nome": "Laranja"},
+    {"nome": "Rosa"},
+    {"nome": "Transparente"},
+    {"nome": "Vermelho"}
+  ],
+  "dimensoes": {
+    "Altura": "90",
+    "Largura": "85"
+  },
+  "composicoes": [
+    {"parte": "Sobretampa"},
+    {"parte": "Tampa"},
+    {"parte": "Copo"}
+  ]
+}

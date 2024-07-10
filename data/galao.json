@@ -1,0 +1,22 @@
+{
+  "cores": [
+    {"nome": "Amarelo"},
+    {"nome": "Azul"},
+    {"nome": "Fumê"},
+    {"nome": "Laranja"},
+    {"nome": "Rosa"},
+    {"nome": "Transparente"},
+    {"nome": "Vermelho"}
+  ],
+    "tampa": [
+      {"nome":  "Amarelo"},
+      {"nome":  "Amarelo Flúor"},
+      {"nome":  "Azul"},
+      {"nome":  "Azul Claro"},
+      {"nome":  "Azul Escuro"}
+    ],
+  "dimensoes": {
+    "Altura": "70",
+    "Largura": "120"
+  }
+}

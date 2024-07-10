@@ -1,0 +1,47 @@
+.exibir-medidas {
+    position: absolute;
+    bottom: 15rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.exibir-medidas-altura {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 7;
+}
+
+.frente {
+    left: 2rem;
+    z-index: 7;
+}
+
+.verso {
+    right: 2rem;
+    text-align: right;
+    z-index: 7;
+}
+
+.simples {
+    height: 250px;
+    left: 2rem;
+    z-index: 7;
+}
+
+.exibir-medidas p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: var(--fs-500);
+    color: var(--cor-primaria-500);
+}
+
+.exibir-medidas span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: var(--fs-500);
+    color: var(--cor-primaria-500);
+}
+

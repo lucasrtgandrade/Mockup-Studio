@@ -1,0 +1,32 @@
+.qr-code {
+    border: 1px solid var(--cor-primaria-500);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.qr-code h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: var(--fs-600);
+    color: var(--cor-primaria-500);
+}
+
+.qr-code p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-500);
+    color: var(--cor-primaria-500);
+    padding-right: .5rem;
+}
+
+.qr-code__header {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-right: 2px solid var(--cor-primaria-500);
+}
+
+.qr-code-switch {
+    margin: 0 auto;
+}

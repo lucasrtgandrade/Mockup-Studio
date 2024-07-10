@@ -1,0 +1,10 @@
+<div class="proj-apr__composicao">
+    <label for="escolherCor"><%= title %></label>
+    <select id="escolherCor" onchange="atualizarUmProduto()">
+        <% cores.forEach(function(cor) { %>
+            <option value=""
+                    data-image="/imagens/<%= title %>/<%= cor.nome %>.png"><%= cor.nome %>
+            </option>
+        <% }); %>
+    </select>
+</div>

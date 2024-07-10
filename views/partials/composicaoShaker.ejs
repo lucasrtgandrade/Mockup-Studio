@@ -1,0 +1,35 @@
+<!-- Select para a asobretampa -->
+<div class="composicao__container">
+    <h3 class="composicao__header">Composição:</h3><label for="select-sobretampa" class="composicao__label">Sobretampa:</label>
+<select name="sobretampa" id="select-sobretampa" class="composicao__options" onchange="updateSobretampa()">
+    <% shaker.sobretampaColorValue.forEach(function(value) { %>
+    <option value="<%=value%>" data-image="/images/sobretampa/<%=value%>.png">
+        <%= value %>
+    </option>
+    <% })%>
+</select>
+
+<!-- Select para a tampa -->
+<label for="select-tampa">Tampa:</label>
+<select name="tampa" id="select-tampa" onchange="updateTampa()">
+    <% shaker.tampaColorValue.forEach(function(value) { %>
+    <option value="<%=value%>" data-image="/images/shaker-tampa/<%=value%>.png">
+        <%= value %>
+    </option>
+    <% })%>
+</select>
+
+<!-- Select para o copo -->
+<label for="select-copo" class="composicao__label">Copo:</label>
+
+<select id="select-copo" class="composicao__options" onchange="updateCopo()">
+    <% shaker.copoColorValue.forEach(function(value) { %>
+    <option value="<%=value%>"
+            data-image="/images/shaker-copo/<%=value%>.png">
+        <%= value %>
+    </option>
+    <% })%>
+</select>
+</div>
+
+<script src="/scripts/mudarComposicao.js"></script>

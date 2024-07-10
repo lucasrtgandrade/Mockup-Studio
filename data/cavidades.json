@@ -1,0 +1,9 @@
+{
+  "cores": [
+    {"nome": "Transparente"}
+  ],
+  "dimensoes": {
+    "Altura": "30",
+    "Largura": "50"
+  }
+}

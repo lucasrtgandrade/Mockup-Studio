@@ -1,0 +1,34 @@
+<div class="proj-apr__composicao">
+    <label for="escolherSobretampa">Sobretampa:</label>
+    <select id="escolherSobretampa" onchange="atualizarSobretampa()">
+        <% sobretampas.forEach(function(sobretampa) { %>
+            <option value="<%= sobretampa.nome %>"
+                    data-image="/imagens/<%= title %>/sobretampa/<%= sobretampa.nome %>.png"><%= sobretampa.nome %>
+            </option>
+        <% }); %>
+    </select>
+    <label for="escolherTampa">Tampa:</label>
+    <select id="escolherTampa" onchange="atualizarTampa()">
+        <% tampas.forEach(function(tampa) { %>
+            <option value="<%= tampa.nome %>"
+                    data-image="/imagens/double-tampa/<%= tampa.nome %>.png"><%= tampa.nome %>
+            </option>
+        <% }); %>
+    </select>
+    <label for="escolherCopo">Copo:</label>
+    <select id="escolherCopo" onchange="atualizarCopo()">
+        <% copos.forEach(function(copo) { %>
+            <option value="<%= copo.nome %>"
+                    data-image="/imagens/double-copo/<%= copo.nome %>.png"><%= copo.nome %>
+            </option>
+        <% }); %>
+    </select>
+    <label for="escolherFundo">Fundo:</label>
+    <select id="escolherFundo" onchange="atualizarFundo()">
+        <% fundos.forEach(function(fundo) { %>
+            <option value="<%= fundo.nome %>"
+                    data-image="/imagens/double-fundo/<%= fundo.nome %>.png"><%= fundo.nome %>
+            </option>
+        <% }); %>
+    </select>
+</div>

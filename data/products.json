@@ -1,0 +1,48 @@
+[
+  {
+    "value": "01",
+    "name": "Shaker 600",
+    "shortname": "shaker-600"
+  },
+  {
+    "value": "02",
+    "name": "Shaker Go",
+    "shortname": "shaker-go"
+  },
+  {
+    "value": "03",
+    "name": "Double Shaker",
+    "shortname": "double-shaker"
+  },
+  {
+    "value": "04",
+    "name": "Double Go",
+    "shortname": "double-shaker-go"
+  },
+  {
+    "value": "05",
+    "name": "Galão",
+    "shortname": "galao"
+  },
+  {
+    "value": "06",
+    "name": "Porta Cavidades",
+    "shortname": "porta-capsulas"
+  },
+  {
+    "value": "07",
+    "name": "Porta Semanal",
+    "shortname": "porta-semanal"
+  },
+  {
+
+    "value": "08",
+    "name": "Copo Acqua",
+    "shortname": "copo-acqua"
+  },
+  {
+    "value": "09",
+    "name": "Copo Twister",
+    "shortname": "copo-twister"
+  }
+]

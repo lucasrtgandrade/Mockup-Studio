@@ -1,0 +1,27 @@
+<nav class="navigation">
+    <a href="/">
+        <img src="/imagens/logo-health-plast.svg"
+             class="navigation__logo">
+    </a>
+    <ul class="navigation__list">
+        <% products.forEach(products => { %>
+            <li class="navigation__item">
+                <a href="/<%=products.shortname %>"
+                   class="navigation__link">
+                    <%=products.name %></a></li>
+        <% }); %>
+    </ul>
+    <div class="blank"></div>
+</nav>
+
+<script>
+    window.onload = function() {
+        const products = document.querySelectorAll('.navigation__link');
+
+        products.forEach(product => {
+            if(product.href === window.location.href) {
+                product.classList.add('ativo');
+            }
+        });
+    }
+</script>

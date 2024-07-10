@@ -1,0 +1,15 @@
+<div class="cor-gravacao">
+    <h2>Cores de Gravação</h2>
+    <div class="chip__container">
+        <% coresGravacao.forEach((cor, index) => { %>
+            <div class="chip" onclick="ativarChip(this, '<%= cor.nome %>')">
+                <img src="imagens/icones/chip-check.svg" alt="cor escolhida" class="chip__icone" style="display: none;">
+                <p><%= cor.nome %></p>
+            </div>
+        <% }) %>
+    </div>
+    <div class="cor-gravacao__input">
+        <label for="inputCorCliente">Gravação Especial Cliente:</label>
+        <input type="text" id="inputCorCliente">
+    </div>
+</div>

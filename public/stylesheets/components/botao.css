@@ -1,0 +1,37 @@
+.botao__secundario-c {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: var(--fs-500);
+    font-weight: 700;
+    color: var(--cor-primaria-500);
+    background-color: var(--cor-primaria-300);
+    border-radius: 1rem;
+    padding: .2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.botao__secundario-c:hover {
+    background-color: var(--cor-primaria-200);
+}
+
+.botao__secundario-c:focus {
+    background-color: var(--cor-primaria-500);
+    color: var(--cor-primaria-100);
+}
+
+.botao__primario {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: var(--fs-500);
+    font-weight: 700;
+    color: var(--cor-apoio-background);
+    background-color: var(--cor-primaria-500);
+    border-radius: 2rem;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.botao__primario:hover {
+    background-color: var(--cor-primaria-700);
+}

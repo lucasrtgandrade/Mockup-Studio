@@ -1,0 +1,35 @@
+<div class="label-input">
+    <h2>01. Arte Frente Centralizado</h2>
+    <%- include('medidas-arte-centralizada-frente') %>
+    <%- include('medidas-arte-descentralizada-frente') %>
+    <!--               Switch Descentralizar -->
+    <div class="switch--elementos">
+        <div class="switch__header">
+            <h2>Descentralizada:</h2>
+            <p><%= projecaoAprovacao.AvisoDescentralizado %></p>
+        </div>
+        <label class="switch-c qr-code-switch">
+            <input type="checkbox" id="switchArteDescentralizadaFrente">
+            <span class="puxador redondo"></span>
+        </label>
+    </div>
+    <script>
+        const switchArteDescentralizadaFrente = document.getElementById('switchArteDescentralizadaFrente');
+        const arteDescentralizadaFrente = document.getElementById('arteDescentralizada--frente');
+        const arteCentralizadaFrente = document.getElementById('arteCentralizada--frente');
+        const headerTipoArte = document.querySelector('.label-input h2');
+
+        switchArteDescentralizadaFrente.addEventListener('click', function(){
+            let isOn = switchArteDescentralizadaFrente.checked;
+            if (isOn === true) {
+                arteCentralizadaFrente.style.display = 'none';
+                arteDescentralizadaFrente.style.display = 'block';
+                headerTipoArte.innerHTML = '02. Arte Frente Descentralizada';
+            } else {
+                arteCentralizadaFrente.style.display = 'block';
+                arteDescentralizadaFrente.style.display = 'none';
+                headerTipoArte.innerHTML = '01. Arte Frente Centralizado';
+            }
+        });
+    </script>
+</div>

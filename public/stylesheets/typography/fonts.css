@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Abolition-SoftOblique';
+    src: url('../../fonts/Abolition-SoftOblique.woff2') format('woff2'),
+    url('../../fonts/Abolition-SoftOblique.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../../fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+    url('../../fonts/TitilliumWeb-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../../fonts/TitilliumWeb-SemiBold.woff2') format('woff2'),
+    url('../../fonts/TitilliumWeb-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../../fonts/TitilliumWeb-Bold.woff2') format('woff2'),
+    url('../../fonts/TitilliumWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Black.woff2') format('woff2'),
+    url('../../fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* RESET */
+
+a {
+    text-decoration: none;
+}
+
+/* FONT SIZE VARIABLE */
+
+:root {
+    --fs-400: .625rem;
+    --fs-500: .625rem;
+    --fs-600: 1rem;
+    --fs-700: 1.5rem;
+}
+
+@media (min-width: 1400px) {
+    :root {
+        --fs-400: 0.833rem;
+        --fs-500: 1rem;
+        --fs-600: 1.5rem;
+        --fs-700: 2.5rem;
+    }
+}
+
+#exibirCores div {
+    border: 2px solid var(--cor-primaria-500);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-400);
+    background-color: var(--cor-apoio-background);
+    color: var(--cor-primaria-500);
+    padding: .5rem 1rem;
+    margin: -1px 0rem;
+    text-align: center;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-400);
+    color: var(--cor-primaria-500);
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-500);
+    color: var(--cor-primaria-500);
+    background-color: var(--cor-primaria-100);
+    padding: .5rem .5rem;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--cor-primaria-500);
+}
+
+input[type="number"] {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-500);
+    color: var(--cor-primaria-500);
+    background-color: var(--cor-primaria-100);
+    padding: .5rem .5rem;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--cor-primaria-500);
+}

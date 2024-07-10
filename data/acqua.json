@@ -1,0 +1,13 @@
+{
+  "cores": [
+    {"nome": "Azul Bic"},
+    {"nome": "Preto"},
+    {"nome": "Rosa Flúor"},
+    {"nome": "Tiffany"},
+    {"nome": "Verde Flúor"}
+  ],
+  "dimensoes": {
+    "Altura": "90",
+    "Largura": "70"
+  }
+}

@@ -1,0 +1,30 @@
+ <div class="label-input__elementos"
+         id="arteCentralizada--frente" >
+        <label for="alturaCentralizada--frente">Altura da arte:</label>
+        <input type="number"
+               id="alturaCentralizada--frente"
+               data-max-altura="<%= dimensoes.Altura %>"
+               data-altura-copo="<%= dimensoes.AlturaCopo %>">
+
+<!--        Feedback Altura-->
+        <div class="label-input__feedback">
+            <img src="imagens/icones/info.svg"
+                 alt="icone de informação"
+                 class=label-input__icone"
+                 id="alturaIcone--frente">
+            <span id="feedbackAltura--frente">Altura máx de <%= dimensoes.Altura%>mm</span>
+        </div>
+        <!--                Largura-->
+        <label for="larguraCentralizada--frente">Largura da arte:</label>
+        <input type="number"
+               id="larguraCentralizada--frente"
+               data-max-largura="<%= dimensoes.Largura %>">
+<!--        Feedback Largura-->
+        <div class="label-input__feedback">
+            <img src="imagens/icones/info.svg"
+                 alt="icone de informação"
+                 class=label-input__icone"
+                 id="larguraIcone--frente">
+            <span id="feedbackLargura--frente">Altura máx de <%= dimensoes.Largura%>mm</span>
+        </div>
+    </div>

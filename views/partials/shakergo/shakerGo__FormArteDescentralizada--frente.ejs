@@ -1,0 +1,24 @@
+<div class="form__input-l" id="shakerGo__arteCentro">
+    <div class="form__input-item-l">
+        <label for="shakerGO__frente--alturaArte" class="form__label-t">Altura da Arte:</label>
+        <input type="number" id="shakerGO__frente--alturaArte" required minlength="1" maxlength="100" class="form__input-t">
+        <div class="form__suporte-l">
+            <img src="/images/icones/info.svg" alt="icone de informação" class="form__icone-c" id="shakerGo__frenteAltura--iconeApoio">
+            <small id="shakerGo__frenteAltura--textoApoio" class="form__suporte-t">
+                <%- shaker.avisoAltura %>
+            </small>
+        </div>
+    </div>
+    <div class="form__input-item-l">
+        <label for="shakerGO__frente--larguraArte" class="form__label-t">Largura da Arte:</label>
+        <input type="number" id="shakerGO__frente--larguraArte" required minlength="1" maxlength="85" class="form__input-t">
+        <div class="form__suporte-l">
+            <img src="/images/icones/info.svg" alt="icone de informação" class="form__icone-c" id="shakerGo__frenteLargura--iconeApoio">
+            <small id="shakerGo__frenteLargura--textoApoio" class="form__suporte-t">
+                <%- shaker.avisoLargura %>
+            </small>
+        </div>
+    </div>
+    <button id="shakerGO__calcularFrente" onclick="calcularFrente()" class="botao__secundario-c">Calcular</button>
+</div>
+<script src="/scripts/shakergo/calcularFrente.js"></script>

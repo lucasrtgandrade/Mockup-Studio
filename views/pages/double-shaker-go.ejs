@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <%- include('../partials/metadata') %>
+</head>
+<body data-title="<%- title %>">
+<header>
+    <%- include('../partials/navigation') %>
+</header>
+<main class="mockup__main">
+    <!--        Mockup para exportar-->
+    <div class="mockup-exportar" id="export">
+        <aside class="projecao-aprovacao">
+            <%- include('../partials/projecao-aprovacao/logo-header') %>
+            <%- include('../partials/projecao-aprovacao/double-composicoes') %>
+            <script src="/scripts/composicao/sobretampa.js"></script>
+            <script src="/scripts/composicao/tampa.js"></script>
+            <script src="/scripts/composicao/copo.js"></script>
+            <script src="/scripts/composicao/fundo.js"></script>
+            <%- include('../partials/projecao-aprovacao/aviso-contato') %>
+        </aside>
+
+        <aside class="mockup-imagem">
+            <%- include('../partials/mockup-imagem/produto-qr-code') %>
+            <%- include('../partials/mockup-imagem/exibir-cor-gravacao') %>
+            <%- include('../partials/mockup-imagem/exibir-logo') %>
+            <%- include('../partials/mockup-imagem/exibir-medidas-frente') %>
+            <%- include('../partials/mockup-imagem/exibir-medidas-verso') %>
+            <%- include('../partials/mockup-imagem/exibir-produtos-double') %>
+            <h4 class="mockup-imagem__direcao"> Frente / Verso</h4>
+        </aside>
+    </div>
+    <aside class="mockup-info">
+        <%- include('../partials/mockup-info/medidas-arte-centralizada-frente') %>
+        <script src="scripts/medidas-gravacao/centralizado-frente.js"></script>
+        <%- include('../partials/mockup-info/medidas-arte-centralizada-verso')%>
+        <script src="scripts/medidas-gravacao/centralizado-verso.js"></script>
+        <%- include('../partials/mockup-info/enviar-logo') %>
+        <script src="scripts/carregarLogo.js"></script>
+        <%- include('../partials/mockup-info/qr-code') %>
+        <%- include('../partials/mockup-info/cor-gravacao') %>
+        <script src="scripts/cores-gravacao/escolherTres.js"></script>
+        <button id="downloadMockup" class="botao__primario">Download</button>
+        <script src="scripts/downloadMockup.js"></script>
+    </aside>
+</main>
+</body>
+</html>

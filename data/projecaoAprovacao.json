@@ -1,0 +1,25 @@
+[
+  {
+    "Titulo": "Projeção para Aprovação",
+    "ComposicaoTitulo": "Composição:",
+    "AvisoTitulo": "Aprovação:",
+    "AvisoTxtProducao": "• O pedido será enviado para produção somente após a aprovação da Projeção. Após encaminhado o pedido o mesmo não poderá ser alterado.",
+    "AvisoTxtInformacoes": "• A aprovação da arte final é de responsabilidade do solicitante, favor conferir todas as informações para evitar qualquer transtorno futuro.",
+    "WhatsApp": "(11) 5678-7640",
+    "Email": "contato@healthplast.com.br",
+    "Site": "www.healthplast.com.br",
+    "links": [
+      "(11) 5678-7640",
+      "contato@healthplast.com.br",
+      "www.healthplast.com.br"
+    ],
+    "LinksNome": [
+      "whatsapp",
+      "email",
+      "site"
+    ],
+    "QrCode": "O QR Code impresso é de responsabilidade do cliente. A leitura dependerá das cores escolhidas, tamanho, validade e da qualidade da impressão.",
+    "AvisoQrCode": "Exibir o aviso de QrCode na gravação da coqueteleira e seguir o padrão de gravação.",
+    "AvisoDescentralizado": "Ative caso a arte esteja descentralizada na coqueteleira."
+  }
+]

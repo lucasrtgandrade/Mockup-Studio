@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mockup Studio | Health Plast</title>
+    <%- include('partials/metadata') %>
+  </head>
+  <body class="home-body">
+  <header class="home-header">
+    <a href="/">
+      <img src="/imagens/logo-mockup-studio.svg">
+    </a>
+  </header>
+  <main class="home-main">
+    <h1>Mockups</h1>
+    <ul class="product-list">
+      <% products.forEach((product) => { %>
+        <li class="product-list__item">
+          <a href="/<%= product.shortname %>" class="product-list__link">
+            <div class="product-list__value"><%= product.value %></div>
+            <div class="product-list__link--title">
+              <%= product.name %>
+              <p class="product-list__link--description">Criar mockup</p>
+            </div>
+          </a>
+        </li>
+      <% }); %>
+    </ul>
+  </main>
+  </body>
+</html>

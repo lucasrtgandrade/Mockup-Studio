@@ -1,0 +1,47 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.navigation__logo {
+    height: 64px;
+}
+
+.navigation__list {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation__item {
+    width: 100%;
+    border-bottom: 2px solid transparent;
+}
+
+.navigation__link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-primaria-500);
+}
+
+.ativo {
+    border-bottom: 2px solid var(--cor-primaria-500);
+}
+
+.navigation__link:hover {
+    border-bottom: 2px solid var(--cor-primaria-500);
+}
+
+.blank {
+    height: 64px;
+    width: 100px;
+}

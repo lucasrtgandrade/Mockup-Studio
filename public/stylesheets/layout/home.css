@@ -1,0 +1,87 @@
+.home-body {
+    background-color: var(--cor-primaria-500);
+}
+
+.home-header {
+    background-color: var(--cor-primaria-100);
+    padding: 1rem 3rem;
+}
+
+.home-header img {
+    margin: 0 auto;
+}
+
+.home-main {
+    padding-top: 2rem;
+    display: flex;
+    max-width: 64rem;
+    gap: 1rem;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.home-main h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 2.986rem;
+    color: var(--cor-primaria-100);
+
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+}
+
+.product-list__item {
+    display: flex;
+}
+
+.product-list__link {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 1.728rem;
+    line-height: 120%;
+    color: var(--cor-primaria-100);
+    display: flex;
+    gap: .5rem;
+    width: 100%;
+}
+
+.product-list__link--title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-list__link--description {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 0.833rem;
+    color: var(--cor-primaria-100);
+    line-height: 116%;
+}
+
+.product-list__value {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 2.986rem;
+    color: var(--cor-primaria-100);
+    line-height: 130%;
+    border-left: 2px solid var(--cor-secundaria-500);
+    padding-left: .3rem;
+}
+
+.product-list__item:hover {
+    padding-left: .5rem;
+    cursor: pointer;
+}
+
+.product-list__item--icon {
+    fill: var(--cor-primaria-100);
+    width: 1.5rem;
+    display: block;
+    border: 1px solid red;
+}

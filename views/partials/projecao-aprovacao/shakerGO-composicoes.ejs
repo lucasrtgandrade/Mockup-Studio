@@ -1,0 +1,26 @@
+<div class="proj-apr__composicao">
+    <label for="escolherSobretampa">Sobretampa + Alça:</label>
+    <select id="escolherSobretampa" onchange="atualizarSobretampa()">
+        <% sobretampas.forEach(function(sobretampa) { %>
+            <option value="<%= sobretampa.nome %>"
+                    data-image="/imagens/<%= title %>/sobretampa/<%= sobretampa.nome %>.png"><%= sobretampa.nome %>
+            </option>
+        <% }); %>
+    </select>
+    <label for="escolherTampa">Tampa:</label>
+    <select id="escolherTampa" onchange="atualizarTampa()">
+        <% tampas.forEach(function(tampa) { %>
+            <option value="<%= tampa.nome %>"
+                    data-image="/imagens/shaker-tampa/<%= tampa.nome %>.png"><%= tampa.nome %>
+            </option>
+        <% }); %>
+    </select>
+    <label for="escolherCopo">Copo:</label>
+    <select id="escolherCopo" onchange="atualizarCopo()">
+        <% copos.forEach(function(copo) { %>
+            <option value="<%= copo.nome %>"
+                    data-image="/imagens/shaker-copo/<%= copo.nome %>.png"><%= copo.nome %>
+            </option>
+        <% }); %>
+    </select>
+</div>

@@ -1,0 +1,16 @@
+<div class="proj-apr__aviso">
+    <h2><%= projecaoAprovacao.ComposicaoTitulo%></h2>
+    <p><%= projecaoAprovacao.AvisoTxtProducao%></p>
+    <p><%= projecaoAprovacao.AvisoTxtInformacoes%></p>
+</div>
+
+<div class="proj-apr__contato">
+    <h2><%= projecaoAprovacao.AvisoTitulo%></h2>
+    <% projecaoAprovacao.links.forEach((link, i) => { %>
+        <div class="proj-apr__contato-link">
+            <img class="proj-apr--contato-icone"
+                 src="/imagens/icones/<%= projecaoAprovacao.LinksNome[i] %>.svg">
+            <p><%= link %></p>
+        </div>
+    <% }); %>
+</div>
